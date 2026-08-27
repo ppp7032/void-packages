@@ -1,0 +1,11 @@
+--- a/configure.ac
++++ b/configure.ac
+@@ -10901,7 +10901,7 @@
+ dnl ===================================================================
+ dnl Check for system hsqldb
+ dnl ===================================================================
+-if test "$with_java" != "no" -a "$cross_compiling" != "yes"; then
++if test "$with_java" != "no"; then
+     AC_MSG_CHECKING([which hsqldb to use])
+     if test "$with_system_hsqldb" = "yes"; then
+         AC_MSG_RESULT([external])
